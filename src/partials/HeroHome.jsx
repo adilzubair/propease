@@ -79,7 +79,7 @@ function HeroHome() {
             >
               {/* Added solid color as fallback before gradient */}
               <span
-                className="text-blue-600 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-neon-400 animate-gradient"
+                className="text-blue-600 md:bg-clip-text md:text-transparent md:bg-gradient-to-r md:from-blue-600 md:to-neon-400 md:animate-gradient"
                 style={{
                   WebkitBackgroundClip: 'text',
                   WebkitTextFillColor: 'transparent',
