@@ -74,7 +74,7 @@ function HeroHome() {
               <span className="text-sm font-semibold text-blue-600 font-['Lato'] animate-pulse-gentle">Now in Early Access</span>
             </div>
             <h1 
-              className="text-4xl sm:text-5xl md:text-6xl font-extrabold font-['Space_Grotesk'] leading-tighter tracking-tighter mb-4 text-gray-900" 
+              className="bg-yellow-300 z-50 relative text-4xl sm:text-5xl md:text-6xl font-extrabold font-['Space_Grotesk'] leading-tighter tracking-tighter mb-4 text-gray-900" 
               data-aos="zoom-y-out"
             >
               {/* Added solid color as fallback before gradient */}
