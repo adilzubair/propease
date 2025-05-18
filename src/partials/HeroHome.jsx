@@ -74,10 +74,10 @@ function HeroHome() {
               <span className="text-sm font-semibold text-blue-600 font-['Lato'] animate-pulse-gentle">Now in Early Access</span>
             </div>
             <h1 
-              className="relative z-10 bg-yellow-300 text-4xl sm:text-5xl md:text-6xl font-extrabold font-['Space_Grotesk'] leading-tighter tracking-tighter mb-4 text-gray-900" 
+              className="relative z-10 text-4xl sm:text-5xl md:text-6xl font-extrabold font-['Space_Grotesk'] leading-tighter tracking-tighter mb-4 text-gray-900" 
               data-aos="zoom-y-out"
             >
-              {/* Gradient design restored, with z-10 to ensure visibility */}
+              {/* Gradient design restored, yellow bg removed */}
               <span
                 className="text-blue-600 md:bg-clip-text md:text-transparent md:bg-gradient-to-r md:from-blue-600 md:to-neon-400 md:animate-gradient"
               >
@@ -86,7 +86,7 @@ function HeroHome() {
             </h1>
             <div className="max-w-3xl mx-auto">              
               <p 
-                className="relative z-10 bg-yellow-300 text-lg sm:text-xl font-['Lato'] text-gray-900 mb-2 px-4 sm:px-0" 
+                className="relative z-10 text-lg sm:text-xl font-['Lato'] text-gray-900 mb-2 px-4 sm:px-0" 
                 data-aos="zoom-y-out" 
                 data-aos-delay="150"
               >
