@@ -1,8 +1,8 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef, useEffect, forwardRef } from 'react';
 import Modal from '../utils/Modal';
 import HeroImage from '../images/hero-image.png';
 
-function HeroHome() {
+const HeroHome = ({ onEarlyAccessClick, onLearnMoreClick }) => {
   const [videoModalOpen, setVideoModalOpen] = useState(false);
   const video = useRef(null);
   const [isHovered, setIsHovered] = useState(false);
@@ -124,13 +124,17 @@ function HeroHome() {
                     href="#0"
                     onMouseEnter={() => setIsHovered(true)}
                     onMouseLeave={() => setIsHovered(false)}
+                    onClick={e => { e.preventDefault(); onEarlyAccessClick && onEarlyAccessClick(); }}
                   >
                     <span className="relative z-10">Early Access</span>
                     <span className="absolute inset-0 bg-gradient-to-r from-neon-400 to-blue-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform -translate-x-full group-hover:translate-x-0"></span>
                   </a>
                 </div>                
                 <div className="sm:ml-4">
-                  <a className="btn text-gray-900 bg-white border border-gray-300 hover:border-neon-400 hover:shadow-neon w-full sm:w-auto font-['Lato'] transition-all duration-300 transform hover:scale-105 rounded-lg relative group" href="#0">
+                  <a className="btn text-gray-900 bg-white border border-gray-300 hover:border-neon-400 hover:shadow-neon w-full sm:w-auto font-['Lato'] transition-all duration-300 transform hover:scale-105 rounded-lg relative group"
+                    href="#0"
+                    onClick={e => { e.preventDefault(); onLearnMoreClick && onLearnMoreClick(); }}
+                  >
                     <span className="relative z-10">Learn more</span>
                     <span className="absolute left-0 bottom-0 h-0.5 w-0 bg-gradient-to-r from-blue-600 to-neon-400 group-hover:w-full transition-all duration-300"></span>
                   </a>

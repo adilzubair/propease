@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { forwardRef } from 'react';
 
-function FeaturesBlocks() {
+const FeaturesBlocks = forwardRef((props, ref) => {
   return (
-    <section className="relative">
+    <section ref={ref} className="relative">
       {/* Modern gradient background */}
       <div className="absolute inset-0 top-1/2 md:mt-24 lg:mt-0 bg-gradient-to-b from-platinum-200 to-white pointer-events-none" aria-hidden="true"></div>
       <div className="absolute left-0 right-0 bottom-0 m-auto w-px p-px h-20 bg-gradient-to-b from-gray-900 to-gray-600 transform translate-y-1/2"></div>
@@ -29,7 +29,6 @@ function FeaturesBlocks() {
                     <rect className="fill-current text-blue-600" width="64" height="64" rx="32" />
                     <g strokeWidth="2">
                       <path className="stroke-current text-neon-400" d="M34.514 35.429l2.057 2.285h8M20.571 26.286h5.715l2.057 2.285" />
-                      <path className="stroke-current text-white" d="M20.571 37.714h5.715L36.57 26.286h8" />
                       <path className="stroke-current text-neon-400" strokeLinecap="square" d="M41.143 34.286l3.428 3.428-3.428 3.429" />
                       <path className="stroke-current text-white" strokeLinecap="square" d="M41.143 29.714l3.428-3.428-3.428-3.429" />
                     </g>
@@ -164,6 +163,6 @@ function FeaturesBlocks() {
       </div>
     </section>
   );
-}
+});
 
 export default FeaturesBlocks;

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 
 import Header from '../partials/Header';
 import HeroHome from '../partials/HeroHome';
@@ -10,6 +10,9 @@ import Footer from '../partials/Footer';
 
 
 function Home() {
+  const newsletterRef = useRef(null);
+  const featuresBlocksRef = useRef(null);
+
   return (
     <div className="flex flex-col min-h-screen overflow-hidden">
 
@@ -20,11 +23,14 @@ function Home() {
       <main className="flex-grow">
 
         {/*  Page sections */}
-        <HeroHome />
+        <HeroHome 
+          onEarlyAccessClick={() => newsletterRef.current?.scrollIntoView({ behavior: 'smooth' })}
+          onLearnMoreClick={() => featuresBlocksRef.current?.scrollIntoView({ behavior: 'smooth' })}
+        />
         <FeaturesHome />
-        <FeaturesBlocks />
+        <FeaturesBlocks ref={featuresBlocksRef} />
         <Testimonials />
-        <Newsletter />
+        <Newsletter ref={newsletterRef} />
 
       </main>
 

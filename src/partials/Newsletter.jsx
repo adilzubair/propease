@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, forwardRef } from 'react';
 
-function Newsletter() {
+const Newsletter = forwardRef((props, ref) => {
   const [email, setEmail] = useState('');
   const [submitted, setSubmitted] = useState(false);
   const [focused, setFocused] = useState(false);
@@ -16,7 +16,7 @@ function Newsletter() {
   };
 
   return (
-    <section>
+    <section ref={ref}>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pb-12 md:pb-20">
           {/* CTA box */}
@@ -182,6 +182,6 @@ function Newsletter() {
       </div>
     </section>
   );
-}
+});
 
 export default Newsletter;
