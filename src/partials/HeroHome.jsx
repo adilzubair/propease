@@ -80,13 +80,6 @@ function HeroHome() {
               {/* Added solid color as fallback before gradient */}
               <span
                 className="text-blue-600 md:bg-clip-text md:text-transparent md:bg-gradient-to-r md:from-blue-600 md:to-neon-400 md:animate-gradient"
-                style={{
-                  WebkitBackgroundClip: 'text',
-                  WebkitTextFillColor: 'transparent',
-                  backgroundClip: 'text',
-                  textFillColor: 'transparent',
-                  color: '#2563eb', // Tailwind blue-600 fallback
-                }}
               >
                 Propease
               </span> - <span className="text-black">MENA's Top Tier Property Management Software</span>
