@@ -15,18 +15,18 @@ module.exports = {
           600: '#666666',
           700: '#4C4C4C',
           800: '#333333',
-          900: '#191919',
+          900: '#0F131A', // Updated to Rich Black for text
         },
         blue: {
-          100: '#E6F0FD',
-          200: '#CCE2FC',
-          300: '#99C5FA',
-          400: '#66A9F7',
-          500: '#338CF5',
-          600: '#0070F4',
-          700: '#0064DA',
-          800: '#0059C2',
-          900: '#004391',
+          100: '#E8EBFF',
+          200: '#D1D7FF',
+          300: '#A2AFFE',
+          400: '#7487FD',
+          500: '#455FFB',
+          600: '#1736F5', // Primary Palatinate Blue
+          700: '#1430DA',
+          800: '#112ABE',
+          900: '#0E249F',
         },
         teal: {
           100: '#E6FFFA',
@@ -38,6 +38,12 @@ module.exports = {
           700: '#2C7A7B',
           800: '#285E61',
           900: '#234E52',
+        },
+        neon: {
+          400: '#39FF14', // Accent Neon Green
+        },
+        platinum: {
+          200: '#DEDEDE', // Subtle section background
         },
       },
       boxShadow: {
@@ -58,7 +64,9 @@ module.exports = {
         '1/1': '100%',
       },
       fontFamily: {
-        inter: ['Inter', 'sans-serif']
+        inter: ['Inter', 'sans-serif'],
+        'space-grotesk': ['Space Grotesk', 'sans-serif'],
+        lato: ['Lato', 'sans-serif']
       },
       fontSize: {
         xs: '0.75rem',
