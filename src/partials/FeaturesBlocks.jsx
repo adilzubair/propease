@@ -12,8 +12,8 @@ function FeaturesBlocks() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4 font-['Space_Grotesk'] text-gray-900">How Simple works</h2>
-            <p className="text-xl text-gray-900 font-['Lato']">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
+            <h2 className="h2 mb-4 font-['Space_Grotesk'] text-gray-900">How Propease Works</h2>
+            <p className="text-xl text-gray-900 font-['Lato']">Our platform simplifies property management through an intuitive workflow designed to address the unique challenges faced by property owners and facility managers in the MENA region.</p>
           </div>
 
           {/* Items */}
@@ -32,8 +32,8 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold font-['Space_Grotesk'] leading-snug tracking-tight mb-1 text-gray-900">Initial Contact</h4>
-              <p className="text-gray-900 font-['Lato'] text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h4 className="text-xl font-bold font-['Space_Grotesk'] leading-snug tracking-tight mb-1 text-gray-900">Property Onboarding</h4>
+              <p className="text-gray-900 font-['Lato'] text-center">Easily add and configure your properties with all relevant details and specifications.</p>
             </div>
 
             {/* 2nd item */}
@@ -48,8 +48,8 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold font-['Space_Grotesk'] leading-snug tracking-tight mb-1 text-gray-900">Discovery Session</h4>
-              <p className="text-gray-900 font-['Lato'] text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h4 className="text-xl font-bold font-['Space_Grotesk'] leading-snug tracking-tight mb-1 text-gray-900">Tenant Management</h4>
+              <p className="text-gray-900 font-['Lato'] text-center">Manage tenant profiles, communication, and documentation in one centralized location.</p>
             </div>
 
             {/* 3rd item */}
@@ -63,8 +63,8 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold font-['Space_Grotesk'] leading-snug tracking-tight mb-1 text-gray-900">Contracting</h4>
-              <p className="text-gray-900 font-['Lato'] text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h4 className="text-xl font-bold font-['Space_Grotesk'] leading-snug tracking-tight mb-1 text-gray-900">Maintenance Tracking</h4>
+              <p className="text-gray-900 font-['Lato'] text-center">Log and track maintenance requests, assign tasks, and monitor completion status.</p>
             </div>
 
             {/* 4th item */}
@@ -80,8 +80,8 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>              
-              <h4 className="text-xl font-bold font-['Space_Grotesk'] leading-snug tracking-tight mb-1 text-gray-900">Fast Prototyping</h4>
-              <p className="text-gray-900 font-['Lato'] text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h4 className="text-xl font-bold font-['Space_Grotesk'] leading-snug tracking-tight mb-1 text-gray-900">Financial Reporting</h4>
+              <p className="text-gray-900 font-['Lato'] text-center">Generate comprehensive financial reports to track property performance and profitability.</p>
             </div>
 
             {/* 5th item */}
@@ -95,8 +95,8 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold font-['Space_Grotesk'] leading-snug tracking-tight mb-1 text-gray-900">Design Phase</h4>
-              <p className="text-gray-900 font-['Lato'] text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h4 className="text-xl font-bold font-['Space_Grotesk'] leading-snug tracking-tight mb-1 text-gray-900">Document Management</h4>
+              <p className="text-gray-900 font-['Lato'] text-center">Store and access all property-related documents, contracts, and communications securely.</p>
             </div>
 
             {/* 6th item */}
@@ -112,8 +112,8 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold font-['Space_Grotesk'] leading-snug tracking-tight mb-1 text-gray-900">Develop & Launch</h4>
-              <p className="text-gray-900 font-['Lato'] text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h4 className="text-xl font-bold font-['Space_Grotesk'] leading-snug tracking-tight mb-1 text-gray-900">Analytics & Insights</h4>
+              <p className="text-gray-900 font-['Lato'] text-center">Gain valuable insights through data analytics to make informed property management decisions.</p>
             </div>
 
           </div>

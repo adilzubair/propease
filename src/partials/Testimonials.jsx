@@ -26,25 +26,24 @@ export default function Testimonials() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h2 className="h2 mb-4 font-space-grotesk text-gray-900">
-              Trusted by over 20,000 companies all over the world
+              Trusted by Property Managers Across the MENA Region
             </h2>
             <p className="text-xl text-gray-900 font-lato" data-aos="zoom-y-out">
-              Arcu cursus vitae congue mauris rhoncus viverra nibh cras pulvinar mattis
-              blandit libero cursus mattis.
+              Hear from property owners and facility managers who have transformed their operations and improved efficiency with Propease.
             </p>
           </div>
 
           {/* Testimonial */}
           <div className="max-w-2xl mx-auto text-center">
             <blockquote className="text-xl font-medium mb-4 font-lato text-gray-900">
-              "I love this product and would recommend it to anyone. Could be not easier to use, and our multiple websites are wonderful. We get nice comments all the time."
+              "Propease has completely revolutionized how we manage our properties. The maintenance tracking system alone has saved us countless hours and improved tenant satisfaction tremendously. I can't imagine running our properties without it now."
             </blockquote>
             <cite className="block font-bold text-lg not-italic mb-1 font-space-grotesk text-gray-900">
-              Darya Finger
+              Ahmed Al-Mansour
             </cite>
             <div className="text-gray-900 font-lato">
-              <span>CEO & Co-Founder</span>{' '}
-              <a className="text-blue-600 hover:text-neon-400 hover:underline" href="#0">@Dropbox</a>
+              <span>Property Manager</span>{' '}
+              <a className="text-blue-600 hover:text-neon-400 hover:underline" href="#0">@Gulf Properties</a>
             </div>
           </div>
 

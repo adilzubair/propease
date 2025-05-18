@@ -33,8 +33,8 @@ function Features() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h2 mb-4 font-['Space_Grotesk'] text-gray-900">Explore the solutions</h1>
-            <p className="text-xl text-gray-900 font-['Lato']">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
+            <h1 className="h2 mb-4 font-['Space_Grotesk'] text-gray-900">Comprehensive Property Management Solutions</h1>
+            <p className="text-xl text-gray-900 font-['Lato']">Propease offers a complete suite of tools designed specifically for property owners and facility managers in the MENA region, helping you manage your properties with ease and efficiency.</p>
           </div>
 
           {/* Section content */}
@@ -43,8 +43,8 @@ function Features() {
             {/* Content */}
             <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6" data-aos="fade-right">
               <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
-                <h3 className="h3 mb-3 font-['Space_Grotesk'] text-gray-900">Powerful suite of tools</h3>
-                <p className="text-xl text-gray-900 font-['Lato']">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
+                <h3 className="h3 mb-3 font-['Space_Grotesk'] text-gray-900">Powerful Suite of Property Management Tools</h3>
+                <p className="text-xl text-gray-900 font-['Lato']">From tenant management and maintenance requests to financial reporting and compliance tracking, our platform gives property owners and managers everything they need to optimize operations and enhance property value.</p>
               </div>
               {/* Tabs buttons */}
               <div className="mb-8 md:mb-0">
@@ -54,8 +54,8 @@ function Features() {
                   onClick={(e) => { e.preventDefault(); setTab(1); }}
                 >
                   <div>
-                    <div className="font-bold font-['Space_Grotesk'] leading-snug tracking-tight mb-1">Building the Simple ecosystem</div>
-                    <div className={`${tab !== 1 ? 'text-gray-900' : 'text-white'} font-['Lato']`}>Take collaboration to the next level with security and administrative features built for teams.</div>
+                    <div className="font-bold font-['Space_Grotesk'] leading-snug tracking-tight mb-1">Maintenance Management</div>
+                    <div className={`${tab !== 1 ? 'text-gray-900' : 'text-white'} font-['Lato']`}>Streamline maintenance requests, schedule preventative maintenance, and track work orders with our comprehensive maintenance management system.</div>
                   </div>
                   <div className={`flex justify-center items-center w-8 h-8 rounded-full shadow flex-shrink-0 ml-3 ${tab !== 1 ? 'bg-white' : 'bg-neon-400'}`}>
                     <svg className={`w-3 h-3 ${tab !== 1 ? 'fill-current text-gray-900' : 'fill-current text-gray-900'}`} viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -69,8 +69,8 @@ function Features() {
                   onClick={(e) => { e.preventDefault(); setTab(2); }}
                 >
                   <div>
-                    <div className="font-bold font-['Space_Grotesk'] leading-snug tracking-tight mb-1">Building the Simple ecosystem</div>
-                    <div className={`${tab !== 2 ? 'text-gray-900' : 'text-white'} font-['Lato']`}>Take collaboration to the next level with security and administrative features built for teams.</div>
+                    <div className="font-bold font-['Space_Grotesk'] leading-snug tracking-tight mb-1">Financial Management</div>
+                    <div className={`${tab !== 2 ? 'text-gray-900' : 'text-white'} font-['Lato']`}>Track rent collection, manage expenses, generate financial reports, and gain insights into your property's financial performance all in one place.</div>
                   </div>
                   <div className={`flex justify-center items-center w-8 h-8 rounded-full shadow flex-shrink-0 ml-3 ${tab !== 2 ? 'bg-white' : 'bg-neon-400'}`}>
                     <svg className={`w-3 h-3 ${tab !== 2 ? 'fill-current text-gray-900' : 'fill-current text-gray-900'}`} viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -84,8 +84,8 @@ function Features() {
                   onClick={(e) => { e.preventDefault(); setTab(3); }}
                 >
                   <div>
-                    <div className="font-bold font-['Space_Grotesk'] leading-snug tracking-tight mb-1">Building the Simple ecosystem</div>
-                    <div className={`${tab !== 3 ? 'text-gray-900' : 'text-white'} font-['Lato']`}>Take collaboration to the next level with security and administrative features built for teams.</div>
+                    <div className="font-bold font-['Space_Grotesk'] leading-snug tracking-tight mb-1">Tenant & Lease Management</div>
+                    <div className={`${tab !== 3 ? 'text-gray-900' : 'text-white'} font-['Lato']`}>Efficiently manage tenant information, lease agreements, communications, and ensure compliance with local regulations for smooth property operations.</div>
                   </div>
                   <div className={`flex justify-center items-center w-8 h-8 rounded-full shadow flex-shrink-0 ml-3 ${tab !== 3 ? 'bg-white' : 'bg-neon-400'}`}>
                     <svg className={`w-3 h-3 ${tab !== 3 ? 'fill-current text-gray-900' : 'fill-current text-gray-900'}`} viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">

@@ -33,22 +33,22 @@ function Footer() {
 
           {/* 2nd block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="text-gray-900 font-['Space_Grotesk'] font-medium mb-2">Products</h6>
+            <h6 className="text-gray-900 font-['Space_Grotesk'] font-medium mb-2">Features</h6>
             <ul className="text-sm font-['Lato']">
               <li className="mb-2">
-                <Link to="#" className="text-gray-900 hover:text-blue-600 transition duration-150 ease-in-out">Web Studio</Link>
+                <Link to="#" className="text-gray-900 hover:text-blue-600 transition duration-150 ease-in-out">Tenant Management</Link>
               </li>
               <li className="mb-2">
-                <Link to="#" className="text-gray-900 hover:text-blue-600 transition duration-150 ease-in-out">DynamicBox Flex</Link>
+                <Link to="#" className="text-gray-900 hover:text-blue-600 transition duration-150 ease-in-out">Maintenance Tracking</Link>
               </li>
               <li className="mb-2">
-                <Link to="#" className="text-gray-900 hover:text-blue-600 transition duration-150 ease-in-out">Programming Forms</Link>
+                <Link to="#" className="text-gray-900 hover:text-blue-600 transition duration-150 ease-in-out">Financial Management</Link>
               </li>
               <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Integrations</Link>
+                <Link to="#" className="text-gray-900 hover:text-blue-600 transition duration-150 ease-in-out">Document Management</Link>
               </li>
               <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Command-line</Link>
+                <Link to="#" className="text-gray-900 hover:text-blue-600 transition duration-150 ease-in-out">Analytics & Insights</Link>
               </li>                            
             </ul>
           </div>
@@ -58,19 +58,19 @@ function Footer() {
             <h6 className="text-gray-900 font-['Space_Grotesk'] font-medium mb-2">Resources</h6>
             <ul className="text-sm font-['Lato']">
               <li className="mb-2">
-                <Link to="#" className="text-gray-900 hover:text-blue-600 transition duration-150 ease-in-out">Documentation</Link>
+                <Link to="#" className="text-gray-900 hover:text-blue-600 transition duration-150 ease-in-out">Knowledge Base</Link>
               </li>
               <li className="mb-2">
-                <Link to="#" className="text-gray-900 hover:text-blue-600 transition duration-150 ease-in-out">Tutorials & Guides</Link>
+                <Link to="#" className="text-gray-900 hover:text-blue-600 transition duration-150 ease-in-out">Property Management Tips</Link>
               </li>
               <li className="mb-2">
-                <Link to="#" className="text-gray-900 hover:text-blue-600 transition duration-150 ease-in-out">Blog</Link>
+                <Link to="#" className="text-gray-900 hover:text-blue-600 transition duration-150 ease-in-out">Industry Blog</Link>
               </li>
               <li className="mb-2">
-                <Link to="#" className="text-gray-900 hover:text-blue-600 transition duration-150 ease-in-out">Support Center</Link>
+                <Link to="#" className="text-gray-900 hover:text-blue-600 transition duration-150 ease-in-out">Customer Support</Link>
               </li>
               <li className="mb-2">
-                <Link to="#" className="text-gray-900 hover:text-blue-600 transition duration-150 ease-in-out">Partners</Link>
+                <Link to="#" className="text-gray-900 hover:text-blue-600 transition duration-150 ease-in-out">Integration Partners</Link>
               </li>
             </ul>
           </div>
@@ -99,8 +99,8 @@ function Footer() {
 
           {/* 5th block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-3">
-            <h6 className="text-gray-900 font-['Space_Grotesk'] font-medium mb-2">Subscribe</h6>
-            <p className="text-sm text-gray-900 font-['Lato'] mb-4">Get the latest news and articles to your inbox every month.</p>
+            <h6 className="text-gray-900 font-['Space_Grotesk'] font-medium mb-2">Stay Updated</h6>
+            <p className="text-sm text-gray-900 font-['Lato'] mb-4">Subscribe to receive property management tips, feature updates, and exclusive insights for property owners.</p>
             <form>
               <div className="flex flex-wrap mb-4">
                 <div className="w-full">
@@ -152,7 +152,7 @@ function Footer() {
           </ul>
 
           {/* Copyrights note */}
-          <div className="text-sm text-gray-900 font-['Lato'] mr-4">Made by <a className="text-blue-600 hover:text-neon-400 hover:underline" href="https://google.com/">Propease</a>. All rights reserved.</div>
+          <div className="text-sm text-gray-900 font-['Lato'] mr-4">© 2025 <a className="text-blue-600 hover:text-neon-400 hover:underline" href="#">Propease</a>. Property management simplified. All rights reserved.</div>
 
         </div>
 
