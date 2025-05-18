@@ -78,11 +78,7 @@ function HeroHome() {
               data-aos="zoom-y-out"
             >
               {/* Added solid color as fallback before gradient */}
-              <span
-                className="text-blue-600 md:bg-clip-text md:text-transparent md:bg-gradient-to-r md:from-blue-600 md:to-neon-400 md:animate-gradient"
-              >
-                Propease
-              </span> - <span className="text-black">MENA's Top Tier Property Management Software</span>
+              <span>Propease</span> - <span className="text-black">MENA's Top Tier Property Management Software</span>
             </h1>
             <div className="max-w-3xl mx-auto">              
               <p 
