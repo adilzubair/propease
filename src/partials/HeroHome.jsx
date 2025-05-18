@@ -77,7 +77,8 @@ function HeroHome() {
               className="text-4xl sm:text-5xl md:text-6xl font-extrabold font-['Space_Grotesk'] leading-tighter tracking-tighter mb-4 text-gray-900" 
               data-aos="zoom-y-out"
             >
-              <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-neon-400 animate-gradient">Propease</span> - MENA's Top Tier Property Management Software
+              {/* Added solid color as fallback before gradient */}
+              <span className="text-blue-600 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-neon-400 animate-gradient">Propease</span> - <span className="text-black">MENA's Top Tier Property Management Software</span>
             </h1>
             <div className="max-w-3xl mx-auto">              
               <p 
@@ -100,6 +101,7 @@ function HeroHome() {
                     <p 
                       className="text-lg font-medium text-gray-800 animate-fade-in-up"
                       key={featureIndex}
+                      style={{color: '#333'}} // Adding inline style as additional fallback
                     >
                       {features[featureIndex]}
                     </p>
