@@ -74,11 +74,15 @@ function HeroHome() {
               <span className="text-sm font-semibold text-blue-600 font-['Lato'] animate-pulse-gentle">Now in Early Access</span>
             </div>
             <h1 
-              className="bg-yellow-300 z-50 relative text-4xl sm:text-5xl md:text-6xl font-extrabold font-['Space_Grotesk'] leading-tighter tracking-tighter mb-4 text-gray-900" 
+              className="text-4xl sm:text-5xl md:text-6xl font-extrabold font-['Space_Grotesk'] leading-tighter tracking-tighter mb-4 text-gray-900" 
               data-aos="zoom-y-out"
             >
-              {/* Added solid color as fallback before gradient */}
-              <span>Propease</span> - <span className="text-black">MENA's Top Tier Property Management Software</span>
+              {/* Gradient design restored, with z-10 to ensure visibility */}
+              <span
+                className="relative z-10 text-blue-600 md:bg-clip-text md:text-transparent md:bg-gradient-to-r md:from-blue-600 md:to-neon-400 md:animate-gradient"
+              >
+                Propease
+              </span> - <span className="text-black">MENA's Top Tier Property Management Software</span>
             </h1>
             <div className="max-w-3xl mx-auto">              
               <p 
