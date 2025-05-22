@@ -4,14 +4,45 @@ const Newsletter = forwardRef((props, ref) => {
   const [email, setEmail] = useState('');
   const [submitted, setSubmitted] = useState(false);
   const [focused, setFocused] = useState(false);
-  
-  const handleSubmit = (e) => {
+  // const [loading, setLoading] = useState(false); // Optional: for loading state
+  // const [errorMessage, setErrorMessage] = useState(''); // Optional: for error message
+
+  const handleSubmit = async (e) => {
     e.preventDefault();
     if (email && email.includes('@')) {
-      setSubmitted(true);
-      setEmail('');
-      // Reset submission state after 5 seconds
-      setTimeout(() => setSubmitted(false), 5000);
+      // setLoading(true); // Optional: if you add a loading state
+      // setErrorMessage(''); // Optional: Clear previous error messages
+      try {
+        const response = await fetch('http://localhost:3001/api/send-email', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            to: email, // User's email
+            from: 'noreply@propease.com', // Verified sender with SendGrid
+            subject: 'New Propease Newsletter Subscription',
+            html: `<p>Thank you for subscribing to the Propease newsletter!</p><p>Subscriber Email: ${email}</p>`,
+          }),
+        });
+
+        if (response.ok) {
+          setSubmitted(true);
+          setEmail('');
+          setTimeout(() => setSubmitted(false), 5000);
+        } else {
+          const errorData = await response.json(); // Try to get error message from backend
+          console.error('Failed to send email:', response.statusText, errorData);
+          // Optional: setErrorMessage(errorData.error || 'Failed to subscribe. Please try again.');
+          // setTimeout(() => setErrorMessage(''), 5000); 
+        }
+      } catch (error) {
+        console.error('Error submitting email:', error);
+        // Optional: setErrorMessage('An error occurred. Please try again.');
+        // setTimeout(() => setErrorMessage(''), 5000);
+      } finally {
+        // setLoading(false); // Optional: if you add a loading state
+      }
     }
   };
 
