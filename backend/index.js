@@ -1,9 +1,12 @@
+require('dotenv').config();
 const express = require('express');
 const sgMail = require('@sendgrid/mail');
+const cors = require('cors');
 const app = express();
 const port = process.env.PORT || 3001;
 
 app.use(express.json());
+app.use(cors());
 
 // IMPORTANT: Set your SendGrid API Key in your environment variables
 // For local development, you can use a .env file with a library like dotenv
@@ -27,7 +30,7 @@ app.post('/api/send-email', async (req, res) => {
   }
 
   // Ensure the 'from' email is the one we expect from our frontend
-  if (from !== 'noreply@propease.com') {
+  if (from !== 'help.propease@gmail.com') {
     console.warn(`Suspicious 'from' email detected: ${from}`); // Log for monitoring
     return res.status(400).json({ error: 'Invalid "from" email address.' });
   }

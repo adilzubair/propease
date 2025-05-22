@@ -20,9 +20,9 @@ const Newsletter = forwardRef((props, ref) => {
           },
           body: JSON.stringify({
             to: email, // User's email
-            from: 'noreply@propease.com', // Verified sender with SendGrid
-            subject: 'New Propease Newsletter Subscription',
-            html: `<p>Thank you for subscribing to the Propease newsletter!</p><p>Subscriber Email: ${email}</p>`,
+            from: 'help.propease@gmail.com', // Verified sender with SendGrid
+            subject: 'Thank you for showing interest in Propease!',
+            html: `<p>Thank you for your interest!, we will contact you soon with the updates.</p><p>Subscriber Email: ${email}</p>`,
           }),
         });
 
