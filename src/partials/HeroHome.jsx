@@ -126,7 +126,7 @@ const HeroHome = ({ onEarlyAccessClick, onLearnMoreClick }) => {
                     onMouseLeave={() => setIsHovered(false)}
                     onClick={e => { e.preventDefault(); onEarlyAccessClick && onEarlyAccessClick(); }}
                   >
-                    <span className="relative z-10">Early Access</span>
+                    <span className="relative z-10 text-white">Early Access</span>
                     <span className="absolute inset-0 bg-gradient-to-r from-neon-400 to-blue-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform -translate-x-full group-hover:translate-x-0"></span>
                   </a>
                 </div>                

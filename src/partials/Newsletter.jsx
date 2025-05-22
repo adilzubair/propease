@@ -47,7 +47,7 @@ const Newsletter = forwardRef((props, ref) => {
   };
 
   return (
-    <section ref={ref}>
+    <section ref={ref} id="newsletter">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pb-12 md:pb-20">
           {/* CTA box */}
@@ -149,7 +149,7 @@ const Newsletter = forwardRef((props, ref) => {
                       type="submit" 
                       className="btn text-white bg-gradient-to-r from-blue-600 to-blue-500 hover:from-neon-400 hover:to-neon-400 hover:text-gray-900 transition-all duration-300 transform hover:scale-105 focus:scale-95 rounded-xl shadow-lg hover:shadow-neon font-['Lato'] relative overflow-hidden group"
                     >
-                      <span className="relative z-10">Join Waitlist</span>
+                      <span className="relative z-10 text-white">Join Waitlist</span>
                       <span className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-neon-400 to-blue-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform -translate-x-full group-hover:translate-x-0"></span>
                     </button>
                   </div>
